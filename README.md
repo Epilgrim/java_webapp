@@ -3,7 +3,13 @@ RANDOM JAVA APP
 
 # How to use
 
-* Access localhost:8000
+* Run
+    ```
+    java -jar bin/app.jar [port_number]
+    ```
+    _parameter port_number is optional. If none given it defaults to port 8000_
+
+* Access localhost:[port_number]
 * Available users: user1, user2, user2
 * Password is equal to the username
 * Each user has allowed to access a single page: user1 can access page_1, user2
